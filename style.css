@@ -5,16 +5,77 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
+    background-color: rgb(231, 171, 42);
     height: 100vh;
 }
 .carte{
-    display: flex;
-    justify-content: space-between;
     background-color: white;
-    width: 45%;
-    height: 80%;
+    border-radius: 20px;
+    height: 80,5%;
+    width: 40%;
 }
 .top{
-
+    display: flex;
+    height: 10%;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 35px;
+    font-weight: 700;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.image1{
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+}
+p{
+    margin: 0px;
+}
+.gauche{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.icone1{
+    height: 60%;
+    width: 7%;
+}
+.image2{
+    width: 100%;
+}
+.bande{
+    padding: 22px;
+    background-color: rgba(31, 161, 255, 1);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 25px;
+}
+.image{
+    height: 66%;
+    background-color:rgba(31, 161, 255, 1) ;
+}
+.fleche{
+    width: 3%;
+}
+.iconesq{
+    width: 5%;
+}
+.icones{
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icones2b{
+    width: 5% ;
+}
+.stats{
+    padding: 20px 20px 50px;
+    font-size: 25px;
 }
